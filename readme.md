@@ -27,10 +27,13 @@ This script targets ruby 3.2.2 and only uses the standard library.  It will ony 
 ## Usage
 
 The script will show its command line arguments by invoking help
+
 ```ruby exercise.rb --help```
 
 To run the script on the command line simply invoke it using the ruby interpreter and pass in the two input file options.
+
 ```ruby exercise.rb --companies <company json file> --users <user json file>```
+
 and it will provide an output file of output.txt
 
 The script is designed to halt on most errors under the presumption that it is better to ensure an error is detected than to silently complete with incorrect output.
